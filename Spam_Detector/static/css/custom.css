@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #35a29f 50%, #a78295 50%);
+  font-family: "Open Sans", sans-serif;
+}
+.card {
+  width: 50%;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 2px solid black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="number"],
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: "Courier New", monospace;
+  font-size: 20px;
+}
+
+input[type="submit"],
+input[type="button"] {
+  padding: 8px 16px;
+  margin-top: 16px;
+  background-color: #458be7;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+  background-color: #0051e6;
+}
+
+.prediction-card {
+  margin-top: 20px;
+}
+
+.prediction {
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.green {
+  background-color: #66bb6a;
+}
+
+.red {
+  background-color: #ef5350;
+}
+.centered {
+  text-align: center;
+}
+textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: "Courier New", monospace;
+  font-size: 20px;
+  border: 1px solid black;
+}
